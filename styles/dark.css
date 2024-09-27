@@ -9,18 +9,21 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bkg-color: rgb(0, 0, 40);
-  --accent-color: rgb(255, 0, 112);
-  --title-text-color: rgba(219, 0, 255);
-  --common-text-color: rgba(241, 178, 206);
-  --subtitle-color: rgb(255, 0, 112);
-  --title-decor-color: rgb(0, 0, 40);
-  --title-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --common-text-size: 18px;
-  --display-bulb: inline-block;
+    --bkg-color: rgb(0, 0, 40);
+    --accent-color: rgb(255, 0, 112);
+    --title-text-color: rgba(219, 0, 255);
+    --common-text-color: rgba(241, 178, 206);
+    --subtitle-color: rgb(255, 0, 112);
+    --title-decor-color: rgb(0, 0, 40);
+    --title-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --common-text-size: 18px;
+    --font-family: 'IBM Plex mono', monospace;
   
-
-  --font-family: 'IBM Plex mono', monospace;
-
-  --bkg-image: url(../images/cover-image-dark.png);
-}
+    --bkg-image: url(../images/cover-image-dark.png);
+  
+    --display-bulb: inline-block;
+  
+    @media (width >= 768px) {
+      --title-text-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    }
+  }
