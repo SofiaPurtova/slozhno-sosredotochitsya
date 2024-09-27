@@ -1,4 +1,4 @@
-https://github.com/SofiaPurtova/slo.git
+https://github.com/SofiaPurtova/slozhno-sosredotochitsya.git
 
 Название проекта: "Сложно сосредоточиться" - новая проектная работа.
 Описание проекта: Адаптивный сайт.
