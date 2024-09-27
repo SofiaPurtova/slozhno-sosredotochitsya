@@ -211,16 +211,19 @@
 .main-question__list {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 20px;
   padding: 0;
   margin: 0;
   list-style: none;
+
+  @media (width >= 768px) {
+    grid-column-start: 2;
+  }
 }
 
 .main-factors {
   margin: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem) clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem) 0;
   display: grid;
-  /*grid-template-columns: 1fr 2fr;*/
   gap: 20px;
 
   @media (width >= 768px) {
@@ -316,8 +319,8 @@ ul {
   font-size: var(--common-text-size, 18px);
   line-height: 23px;
   color: var(--common-text-color, rgba(241, 178, 206, 1));
-  letter-spacing: 0.05em;
-  /*word-spacing: 2px;*/
+  letter-spacing: 0.04em;
+  /*word-spacing: 0.05em;*/
   background-color: var(--bkg-color, rgb(0, 0, 40));
   margin: 15px 0 0px;
 }
