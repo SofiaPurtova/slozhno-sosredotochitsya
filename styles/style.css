@@ -317,10 +317,17 @@
 .main-factors {
   margin: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem) clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem) 0;
   display: grid;
+  grid-template-columns: 1fr 2fr;
   gap: 20px;
 
   @media (width >= 768px) {
     margin: 80px 20px 0;
+  }
+}
+
+@media (width >= 768px) {
+  .main-factors .subtitle {
+    grid-column-start: 1;
   }
 }
 
@@ -330,6 +337,11 @@
   margin: 0;
   padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem) 0 0;
   list-style: none;
+
+  @media (width >= 768px) {
+    grid-column: span 3;
+    padding: 0;
+  }
 
   @media (width >= 1024px) {
     grid-template-columns: repeat(3, 1fr);
@@ -361,6 +373,11 @@
   margin: 0;
 }
 
+.main-tips__list__item p {
+  margin: 10px 0 0;
+  line-height: 23.4px;
+}
+
 ul {
   list-style: none;
 }
@@ -380,6 +397,11 @@ ul {
   letter-spacing: 0.03em;
   margin: 0;
   
+}
+
+.text__container {
+  margin: 0;
+  padding: 0;
 }
 
 .text {
