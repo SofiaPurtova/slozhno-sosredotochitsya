@@ -332,7 +332,9 @@ ul {
 
 @media (width >= 1024px) {
   .text {
-    letter-spacing: 0.04px;
+    margin: 10px 0 0;
+    line-height: 23.4px;
+    letter-spacing: 0.04em;
     word-spacing: 0.03em;
   }
 }
