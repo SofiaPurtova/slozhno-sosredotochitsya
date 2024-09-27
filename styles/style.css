@@ -320,6 +320,7 @@ ul {
   line-height: 23px;
   color: var(--common-text-color, rgba(241, 178, 206, 1));
   letter-spacing: 0.04em;
+  word-spacing: 0.03em;
   /*word-spacing: 0.05em;*/
   background-color: var(--bkg-color, rgb(0, 0, 40));
   margin: 15px 0 0px;
