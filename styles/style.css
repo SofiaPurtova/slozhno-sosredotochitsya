@@ -119,10 +119,13 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--subtitle-color, rgb(255, 0, 112));
+  outline: 1px solid var(--hover-color, rgb(255, 0, 112, 0.5));
   outline-offset: 1px;
   text-decoration: none;
-  background-color: transparent;
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {

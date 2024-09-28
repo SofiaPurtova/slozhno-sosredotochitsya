@@ -18,7 +18,7 @@
     --title-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --common-text-size: 18px;
     --font-family: 'IBM Plex mono', monospace;
-  
+    --hover-color: rgb(255, 0, 112, 0.5);
     --bkg-image: url(../images/cover-image-dark.png);
   
     --display-bulb: inline-block;
