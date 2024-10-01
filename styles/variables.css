@@ -4,8 +4,9 @@
 */
 
 :root {
-  --bkg-color: rgb(0, 0, 40);
+  --bkg-color: #000028;
   --accent-color: rgb(255, 0, 112);
+  --color-for-shadow: rgb(255, 0, 112);
   --title-text-color: rgba(219, 0, 255);
   --common-text-color: rgba(241, 178, 206);
   --subtitle-color: rgb(255, 0, 112);
@@ -13,7 +14,7 @@
   --title-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --common-text-size: 18px;
   --font-family: 'IBM Plex mono', monospace;
-  --hover-color: rgb(255, 0, 112, 0.5);
+  --hover-color: rgb(255, 0, 112, 0.4);
   --bkg-image: url(../images/cover-image-dark.png);
 
   --display-bulb: inline-block;
